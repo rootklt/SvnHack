@@ -128,7 +128,7 @@ class SvnHack(object):
 def cmdParser():
     argParser = argparse.ArgumentParser()
     argParser.add_argument('-u', '--url', required = True, dest = 'targetUrl', help = 'Special svn target url')
-    argParser.add_argument('--wcdb', action = 'store_true', help = 'download wc.db database file')
+    argParser.add_argument('--wcdb', action = 'store_true', help = 'Download wc.db database file')
     argParser.add_argument('--chkver', action = 'store_true', help = 'Check svn Version')
     argParser.add_argument('--download', action = 'store_true', help = 'Download .svn data')
     args = argParser.parse_args()
