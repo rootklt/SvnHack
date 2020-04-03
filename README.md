@@ -13,7 +13,7 @@ optional arguments:
   -h, --help            show this help message and exit
   -u TARGETURL, --url TARGETURL
                         Special svn target url
-  --wcdb                download wc.db database file
+  --wcdb                Download wc.db database file
   --chkver              Check svn Version
   --download            Download .svn data
 ```
